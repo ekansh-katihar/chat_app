@@ -1,5 +1,5 @@
 ## Introduction
-The purpose of this POC to create a chat server using HTTP 1.1 and HTTP2 without using WebSockets. The only requirement is if a user A sends the message to the user B, it should be received by user B And not by anyone else. Whether private key for https can be stolen, or user can impersonate other user is beyond the scope. 
+The purpose of this POC is to simulate the the chat server using http ( without multiplexing). The only requirement is if a user A sends the message to the user B, it should be received by user B And not by anyone else. Whether private key for https can be stolen, or user can impersonate other user is beyond the scope. 
 
 ## Run the app with HTTPS and HTTP2 mode
  - Run ChatServerApplication to start the server.

@@ -3,6 +3,9 @@ package com.example.demo.chatv2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.demo.chatv2.ClientManager;
+
 import reactor.core.publisher.Flux;
 /**
  * Using Spring WebFlux
